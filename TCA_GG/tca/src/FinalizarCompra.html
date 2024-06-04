@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalização de Compra</title>
+    <link rel="stylesheet" href="FinalizarCompra.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compra Finalizada</h1>
+        <div class="resumo-compra">
+            <h2>Resumo da Compra</h2>
+            <div class="info-usuario">
+                <h3>Informações do Usuário</h3>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome"><br>
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" id="sobrenome"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email"><br>
+                <label for="endereco">Endereço:</label><br>
+                <input type="text" id="endereco"><br>
+            </div>
+            <div class="info-compra">
+                <h3>Detalhes da Compra</h3>
+                <p><strong>Total da Compra:</strong> <span id="total"></span></p>
+                <div id="forma-pagamento">
+                    <h3>Forma de Pagamento</h3>
+                    <input type="radio" name="pagamento" id="credito" value="credito">
+                    <label for="credito">Cartão de Crédito</label><br>
+                    <input type="radio" name="pagamento" id="debito" value="debito">
+                    <label for="debito">Cartão de Débito</label><br>
+                    <input type="radio" name="pagamento" id="pix" value="pix">
+                    <label for="pix">PIX</label><br>
+                    <input type="radio" name="pagamento" id="boleto" value="boleto">
+                    <label for="boleto">Boleto Bancário</label><br>
+                </div>
+               <!-- No finalizarCompra.html -->
+                <div id="parcelas" style="display: none;">
+                    <h3>Número de Parcelas</h3>
+                    <select id="numParcelas">
+                        <option value="1">1x Sem Juros</option>
+                        <option value="2">2x Sem Juros</option>
+                        <option value="3">3x Sem Juros</option>
+                        <option value="4">4x Sem Juros</option>
+                        <option value="5">5x Sem Juros</option>
+                        <option value="6">6x Sem Juros</option>
+                        <option value="7">7x Sem Juros</option>
+                        <option value="8">8x Sem Juros</option>
+                        <option value="9">9x Sem Juros</option>
+                        <option value="10">10x Sem Juros</option>
+                        <option value="11">11x Sem Juros</option>
+                        <option value="12">12x Sem Juros</option>
+                        <!-- Outras opções de parcelamento -->
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <button onclick="confirmarCompra()">Confirmar Compra</button>
+        
+    </div>
+
+   <script src="FinalizarCompra.js"></script>
+ 
+</body>
+</html>

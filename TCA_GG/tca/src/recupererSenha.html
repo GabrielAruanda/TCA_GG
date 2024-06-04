@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="recuperarSenha.css">
+    <link rel="stylesheet" href="recuperarSenha.css">
+    <!-- Adicione o script do EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Inicialize o EmailJS com sua chave de serviço
+        emailjs.init("YOUR_USER_ID");
+    </script>
+</head>
+<body>
+    <div class="page">
+        <form method="POST" class="formRecuperarSenha">
+            <h1>Recuperar Senha</h1>
+            <p>Informe o seu e-mail para recuperar ou redefinir sua senha.</p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" autofocus="true" required />
+            <input type="submit" value="Enviar" class="btn" />
+        </form>
+    </div>
+    <script src="recuperarSenha.js"></script>
+</body>
+</html>

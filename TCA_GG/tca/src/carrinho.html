@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <!-- Seu código HTML existente -->
+    
+
+    <!-- Elemento para exibir o carrinho de compras -->
+    
+    
+    <div class="corpo-carrinho">
+    <div id="carrinho">
+        <a class="bt-in" href="inicio.html">INICIO</a>
+        <a class="bt-in" href="login.html">LOGIN</a>
+        <a class="bt-in" href="Cadastro.html">CADASTRO</a>
+        <a class="bt-in" href="https://webglobal.com.br/#sobre-nos">EMPRESA</a>
+        
+        <h2 class="cabeçalho-carrinho">CARRINHO DE COMPRAS</h2>
+
+       
+      
+    </div>
+    
+    <div class="corpo-categorias">
+
+        <div class="linha">
+            
+            <div class="col-4">
+                <img src="img/produto-1.jpg" alt="" onclick="adicionarAoCarrinho('Camiseta Nike Pro 1', 180.00, 'img/produto-1.jpg')">
+                <h4>Camiseta Nike Pro 1</h4>
+                <div class="classificacao">
+                </div>
+                <p>R$180,00</p>
+                <button class="bt-carrinho" onclick="adicionarAoCarrinho('Camiseta Nike Pro 1', 180.00, 'img/produto-1.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-2.jpg" alt="" onclick="adicionarAoCarrinho('Camiseta Adidas Pro 1', 200.00, 'img/produto-2.jpg')">
+                <h4>Camiseta Adidas Pro 1</h4>
+                <div class="classificacao">
+                </div>
+                <p>R$200,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Camiseta Adidas Pro 1', 200.00, 'img/produto-2.jpg')">Adicionar ao Carrinho</button>
+
+            </div>
+            <div class="col-4">
+                <img src="img/produto-3.jpg" alt="" onclick="adicionarAoCarrinho('Camiseta Adidas Pro 2', 220.00, 'img/produto-3.jpg')">
+                <h4>Camiseta Adidas Pro 2</h4>
+                <div class="classificacao">
+                </div>
+                <p>R$220.00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Camiseta Adidas Pro 2',220.00, 'img/produto-3.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-4.jpg" alt="" onclick="adicionarAoCarrinho('Camiseta Nike Pro 2', 200.00, 'img/produto-4.jpg')">
+                <h4>Camiseta Nike Pro 2</h4>
+                <div class="classificacao">
+                </div>
+                <p>R$200,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Camiseta Nike Pro 2', 200.00, 'img/produto-4.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-5.jpg" alt="" onclick="adicionarAoCarrinho('Bermuda Tiger', 80.00, 'img/produto-5.jpg')">
+                <h4>Bermuda Tiger</h4>
+                <div class="classificacao">                        
+                </div>
+                <p>R$80,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Bermuda Tiger', 80.00, 'img/produto-5.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-6.jpg" alt="" onclick="adicionarAoCarrinho('Bermuda Simples', 50.00, 'img/produto-6.jpg')">
+                <h4>Bermuda Simples</h4>
+                <div class="classificacao">                   
+                </div>
+                <p>R$50,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Bermuda Simples', 50.00, 'img/produto-6.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-7.jpg" alt="" onclick="adicionarAoCarrinho('Bermuda Asics', 100.00, 'img/produto-7.jpg')">
+                <h4>Bermuda Asics</h4>
+                <div class="classificacao">
+                </div>
+                <p>R$100,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Bermuda Asics', 100.00, 'img/produto-7.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-8.jpg" alt="" onclick="adicionarAoCarrinho('Short Puma', 150.00, 'img/produto-8.jpg')">
+                <h4>Short Puma</h4>
+                <div class="classificacao">                                              
+                </div>
+                <p>R$150,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Short Puma', 150.00, 'img/produto-8.jpg')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="col-4">
+                <img src="img/produto-9.jpg" alt="" onclick="adicionarAoCarrinho('Tenis Schiareli', 130.00, 'img/produto-9.jpg')">
+                <h4>Tenis Schiareli</h4>
+                <div class="classificacao">    
+                </div>
+                <p>R$130,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Tenis Schiareli', 130.00, 'img/produto-9.jpg')">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="col-4">
+                <img src="img/produto-10.jpg" alt="" onclick="adicionarAoCarrinho('Tenis Olympikus', 140.00, 'img/produto-10.jpg')">
+                <h4>Tenis Olympikus</h4>
+                <div class="classificacao"></div>
+                <p>R$140,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Tenis Olympikus', 140.00, 'img/produto-10.jpg')">Adicionar ao Carrinho</button>  
+            </div>
+            <div class="col-4">
+                <img src="img/produto-11.jpg" alt="" onclick="adicionarAoCarrinho('Tenis Row', 120.00, 'img/produto-11.jpg')">
+                <h4>Tenis Row</h4>
+                <div class="classificacao"></div>     
+                <p>R$120,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Tenis Row', 120.00, 'img/produto-11.jpg')">Adicionar ao Carrinho</button>
+            </div>  
+            <div class="col-4">
+                <img src="img/produto-12.jpg" alt="" onclick="adicionarAoCarrinho('Tenis Action Run', 150.00, 'img/produto-12.jpg')">
+                <h4>Tenis Action Run</h4>
+                <div class="classificacao"></div>               
+                <p>R$150,00</p> <button class="bt-carrinho" onclick="adicionarAoCarrinho('Tenis Action Run', 150.00, 'img/produto-12.jpg')">Adicionar ao Carrinho</button>
+            </div>
+
+
+
+            <!-- Outros produtos omitidos por brevidade -->
+
+        </div>
+        
+    </div>
+
+    <div  id="carrinho-compras">
+        <img src="" alt="">
+        <h3>Itens no Carrinho</h3>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho serão adicionados aqui dinamicamente -->
+        </ul>
+        <p id="total-compra">Total: R$ 0.00</p>
+        <button class="ultimo-bt" onclick="limparCarrinho()">Limpar Carrinho</button>
+        <button class="ultimo-bt" onclick="finalizarCompra()">Finalizar compra</button>
+    </div>
+    
+</div>
+
+<script src="carrinho.js"></script>
+<!-- <script src="fim"></script> -->
+</body>
+</html>

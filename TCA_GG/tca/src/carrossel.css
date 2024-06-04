@@ -1,0 +1,62 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.botaoesquerdo{
+  height: 50px;
+}
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item{
+  margin:0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.categoria1{
+  margin-left: 350px;
+  height: 100%;
+  width: 400px;
+}
+
+.categoria2{
+  margin-left: 350px;
+  height: 100%;
+  width: 400px;
+}
+
+.categoria3{
+  margin-left: 350px;
+  height: 100%;
+  width: 400px;
+}
+
+
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 10px;
+  border: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGSTORE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="carrossel.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="carrinho.css"> <!-- Assumindo que o arquivo de estilo do carrinho seja carrinho.css -->
+</head>
+<body>
+    <!--Inicio cod-->
+
+    <div class="banner">
+        <!--Inicio cont-->
+
+        <div class="container">
+
+            <!--Inicio nav-->
+
+            <div class="navbar">
+
+                <div class="logo">
+                    <img src="img/logo.png" alt="LOJAVIRTUAL"width="125px">
+                </div>
+
+                    <!--Inicio men nav-->
+                    
+                    <nav>
+                        <ul id="MenuItens">
+                          
+
+                            <li><a href="login.html" title="">Login</a></li>
+
+                            <li><a href="cadastro.html" title="">Cadastro</a></li>
+                           
+                            <li><a href="https://webglobal.com.br/#sobre-nos" title="">Empresa</a></li>
+
+                            <li><a href="carrinho.html" title="">Carrino de compras</a></li>
+                         
+                           
+                        </ul>                        
+                    </nav>
+                    <div class="carinho-compras">
+                        
+
+                        </a>
+                    </div>                    
+                    <img src="img/menu.png" alt="" class="menu-celular" onclick="menucelular()">
+
+            </div>
+
+            <!--fim nav-->
+            
+          
+
+        </div>
+
+        <!--fim cont-->
+
+    </div>
+
+    <!--fim cod-->
+    <div class="carousel">
+        <div class="carousel-content">
+            
+          <div class="carousel-item"><img class="categoria1" src="img/categoria-1.jpg" alt="produto-1"></div>
+          <div class="carousel-item"><img class="categoria2" src="img/categoria-2.jpg" alt="produto-2"></div>
+          <div class="carousel-item"><img class="categoria3" src="img/categoria-3.jpg" alt="produto-3"></div>
+          
+          <!-- Add more items as needed -->
+        </div class="carousel-button">
+        
+        <div>
+        <button class="carousel-button" onclick="moveCarousel(-1)"><img class="botaoesquerdo" src="img/setaesquerda.jpg" alt=""></ion-icon></button>
+        <button class="carousel-button next" onclick="moveCarousel(1)"><img class="botaoesquerdo" src="img/setadireita.jpg" alt=""></button>
+        </div>
+      </div>
+      
+      <script src="carrossel.js">
+       
+      </script>
+
+            <!--inicio prod-dest-->
+            <div class="corpo-categorias">
+
+                <h2 class="titulo">Camisas
+                </h2>
+                <!--inicio linha-prod-->
+
+                <div class="linha">
+
+                   
+
+                    <!--inicio item-prod-->
+                    <div class="col-4">
+                        <img src="img/produto-1.jpg" alt="">
+                        <h4>Camiseta Nike Pro 1</h4>
+                        <div class="classificacao">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            
+                        </div>
+                    </div>
+                     <!--fim item-prod-->
+                      
+                     <!--inicio item-prod-->
+                    <div class="col-4">
+                        <img src="img/produto-2.jpg" alt="">
+                        <h4>Camiseta Adidas Pro 1</h4>
+                        <div class="classificacao">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            
+                        </div>
+
+                    
+                    </div>
+                     <!--fim item-prod--> 
+                     
+                     <!--inicio item-prod-->
+                    <div class="col-4">
+                        <img src="img/produto-3.jpg" alt="">
+                        <h4>Camiseta Adidas Pro 2</h4>
+                        <div class="classificacao">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            
+                        </div>
+
+                      
+                    </div>
+                     <!--fim item-prod--> 
+                     
+                     <!--inicio item-prod-->
+                    <div class="col-4">
+                        <img src="img/produto-4.jpg" alt="">
+                        <h4>Camiseta Nike Pro 2</h4>
+                        <div class="classificacao">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            
+                        </div>
+
+                       
+                    </div>
+                     <!--fim item-prod-->
+
+
+                </div>
+            <!--fim linha-prod-->
+            <h2 class="titulo">Bermudas / Short</h2>   <!--inicio linha-prod-->
+
+            <div class="linha">
+
+                <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-5.jpg" alt="">
+                    <h4>Bermuda Tiger</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                   
+                </div>
+                 <!--fim item-prod-->
+                <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-6.jpg" alt="">
+                    <h4>Bermuda Simples</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                    
+                </div>
+                 <!--fim item-prod-->
+                 
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-7.jpg" alt="">
+                    <h4>Bermuda Asics</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                    
+                </div>
+                 <!--fim item-prod--> 
+                 
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-8.jpg" alt="">
+                    <h4>Short Puma</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                </div>
+                
+                 <!--fim item-prod--> 
+                 <h2 class="titulo">Calsados</h2>  
+
+                 <div class="linha">
+                  
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-9.jpg" alt="">
+                    <h4>Tenis Schiareli</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                </div>
+                 <!--fim item-prod-->
+                  
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-10.jpg" alt="">
+                    <h4>Tenis Olympikus</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                   
+                </div>
+                 <!--fim item-prod-->
+                  
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-11.jpg" alt="">
+                    <h4>Tenis Row</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                   
+                </div>
+                 <!--fim item-prod-->
+                  
+                 <!--inicio item-prod-->
+                <div class="col-4">
+                    <img src="img/produto-12.jpg" alt="">
+                    <h4>Tenis Action Run</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        
+                    </div>
+
+                    
+                </div>
+                 <!--fim item-prod-->
+
+
+            </div>
+        <!--fim linha-prod-->
+
+            </div>
+            
+            <!--fim prod-dest-->
+
+                <!--inicio oferts-->
+                    <div class="ofertas">
+                        <div class="corpo-categorias">
+                            <div class="linha">
+                                <div class="col-2">
+                                    <img src="img/banner-2.png" alt="" class="ofertas-img">
+                                    </div>
+                                        <div class="col-2">
+                                    
+                                            <h1>Adquira seu produto em nossa Loja!</h1>
+                                            
+                                            
+                                    </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!--fim oferts-->
+                        <!--inicio dep-->
+                        <div class="depoimentos">
+                            <div class="corpo-categorias">
+                                <div class="linha">
+                                    <!--inicio iten dep-->
+                                        <div class="col-3">
+                                            <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                                            
+                                            <div class="classificacao">
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon>
+                                                <ion-icon name="star"></ion-icon><br>
+                                            <img src="img/cliente-1.png" alt="">
+                                            <h3>Julia</h3>
+                                            <p>Os descontos da loja são os meljores do mercado!</p>
+                                        </div>
+
+                                    <!--inicio iten dep-->
+                                    
+                                </div>
+                                 <!--inicio iten dep-->
+                                 <div class="col-3">
+                                    <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                                    
+                                    <div class="classificacao">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon><br>
+                                    <img src="img/cliente-2.png" alt="">
+                                    <h3>Gabriel</h3>
+                                    <p>Produtos de otima qualidade com um bom custo beneficio.</p>
+                                </div>
+
+                            <!--inicio iten dep-->
+                            </div>
+                             <!--inicio iten dep-->
+                             <div class="col-3">
+                                <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                               
+                                <div class="classificacao">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <br>
+                                    <img src="img/cliente-3.png" alt="">
+                                    <h3>Vanessa</h3>
+                                     <p>Chegou antes do praso, comprei na GGStore!!!</p>
+                                </div>
+
+                                <!--inicio iten dep-->
+                                </div>
+
+                                <!--fim dep-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--inicio marcas-->
+                    <div class="marcas">
+                        <div class="corpo-categorias">
+                            <div class="linha">
+                                <div class="col-5">
+                                    <img src="img/marca-1.png" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <img src="img/logo.png" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <img src="img/marca-3.png" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <img src="img/marca-4.png" alt="">
+                                </div>
+                                <div class="col-5">
+                                    <img src="img/marca-5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fim marcas-->
+                    <!--inicio rodape-->
+                    <footer class="rodape">
+                        <div class="container-rodape">
+                            <div class="linha">
+                                <div class="rodape-col-1">
+                                    <h3>Baixe o nosso app</h3>
+                                    <p>Baixe o nosso app nas melhores plataformas.</p>
+                                    <div class="app-logo">
+                                        <img src="img/google.png" alt="">
+                                        <img src="img/apple.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="rodape-col-2">
+                                    <img src="img/logo-2.png" alt="">
+                                    <p>Trabalhe para o sucesso.</p>
+                                </div>
+                                <div class="rodape-col-3">
+                                    <h3>Mais informações</h3>
+                                    <ul>
+                                        <li>Cupons</li>
+                                        <li>Blog</li>
+                                        <li>Politica de Privacidade</li>
+                                        <li>Contatos</li>
+                                    </ul>
+                                </div>
+                                <div class="rodape-col-4">
+                                    <h3>Redes Sociais</h3>
+                                    <ul>
+                                        <li>Facebook</li>
+                                        <li>Instagram</li>
+                                        <li>Youtube</li>
+                                        <li>Twitter</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="direitos">
+                                &#169; Todos os direitos reservados a MSFLIX.COM.BR MAYKONSILVEIRA.COM.BR
+                            </p>
+                        </div>
+                    </footer>
+                    <!--fim rodape-->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add a section to show that the user is logged in -->
+    <div class="user-status">
+        <p>Você está cadastrado!</p>
+    </div>
+
+</body>
+</html>
+
+<script src="inicio.js"></script>
